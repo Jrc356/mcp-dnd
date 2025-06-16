@@ -1,0 +1,26 @@
+{
+  "servers": {
+    // "dnd": {
+    //   "type": "stdio",
+    //   "command": "docker",
+    //   "args": [
+    //     "run",
+    //     "--rm",
+    //     "-i",
+    //     "dnd-mcp-app:latest",
+    //   ],
+    //   "cwd": "${workspaceFolder}"
+    // },
+    "dnd": {
+      "type": "stdio",
+      "command": "poetry",
+      "args": [
+        "run",
+        "python",
+        "main.py"
+      ],
+      "cwd": "${workspaceFolder}"
+    }
+
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "editor.rulers": [
+    100
+  ],
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always",
+      "source.fixAll": "always"
+    }
+  },
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+}
